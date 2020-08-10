@@ -1,0 +1,142 @@
+/*>>===>>retirar backgrounds*/
+body,
+.navbar-white,
+.main-sidebar,
+.content-wrapper{
+background-color: #0000 !important; 
+background-image: url('../imagens/background.jpg');
+}
+
+/*===>>*/
+.nav-link{
+	color: #fff !important;
+}
+
+/*===>>Barra lateral*/
+.main-sidebar{
+background: #494949db !important;
+}
+
+/*===>>Editor*/
+.editor{
+	border-radius: 1.25rem;
+}
+.col-md-9 {
+    -ms-flex: 0 0 75%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.card{
+	background-color: #4a4a4af2;
+	color: #fff;
+}
+
+
+/*===>>Rodapé*/
+.main-footer{
+	text-align: center;
+	background-color: #494949db !important;
+	/*box-shadow: 0px 0px 1px 10px #ff0000;*/
+}
+
+/*===>>*/
+.logo{
+    box-shadow: 0px 0px 10px 0px #fff!important;
+    max-height: 48px !important;
+    border-bottom-right-radius: 70px !important;
+    border-bottom-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    border-top-left-radius: 40px !important;
+    float: none !important;
+    margin: 5px !important;
+    padding: 2px;
+
+}
+
+
+/*===>>*/
+.imgperfil{
+	width: 2.8rem !important;
+	box-shadow: 0px 3px 5px 0px #fff !important;
+}
+
+.user-panel .image {
+    padding: 0.5rem !important;
+}
+
+
+.formpesquisa{
+	min-width: 40%;
+	border-radius: 15px;	
+}
+.pesquisa{
+	min-width: 100%;
+	border-radius: 15px;
+}
+input[type='search']{
+	border-top-left-radius: 25px !important;
+    border-bottom-left-radius: 10px !important;
+}
+
+.btn-pesquisa{
+	border-top-right-radius: 25px !important;
+    border-bottom-right-radius: 10px !important;
+}
+.divdados{
+	display: flex;	
+}
+.cpdados{
+	margin: 0px 10px;
+}
+input[name='mat_tur']{
+	border: none;
+	border-radius: 15px;
+    margin-right: 0px;
+    padding-right: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    font-variant: all-small-caps;
+    /*font-family: 'Bauhaus 93';*/
+}
+input[value='criar']{
+	border: none;
+	border-radius: 15px;
+	border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    font-family: 'Bauhaus 93';
+}
+
+#mmodal{
+    background: #000000de;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1040;
+}
+
+.alerta{
+    margin: 100px auto;
+    width: 60%;
+    height: 35%;
+    background: white;
+    z-index: 1050;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px #9e9e9e;
+    text-align: center;
+}
+.mtexto{
+    padding-top: 55px;
+}
+.fechar{
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.turmas{
+    color: white;
+    margin: 0px 10px;
+
+}

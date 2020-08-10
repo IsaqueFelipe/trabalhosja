@@ -1,0 +1,27 @@
+body{
+  font-family: 'Bauhaus 93', 'Lucida Console', 'Trebuchet MS';
+  background: linear-gradient(0deg, #3854da 20% , #0014ff6e 50%, #4070dc 75%);
+  color: white;
+  background: url(../imagens/background.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.remetente{
+    color: white;
+    background: #000000ad;
+    margin: 0px 10px;
+    padding: 5px 30px;
+    border-radius: 10px;
+    border-top-left-radius: 30px !important;
+    border-top-right-radius: 30px !important;
+}
+.remet{
+	border-bottom: 3px groove #989898;
+    border-left: 3px groove;
+    border-radius: 8px;
+    margin-right: 10px;
+    padding: 1px 3px;
+    font-variant: oldstyle-nums;
+    font-variant-caps: small-caps;
+}
